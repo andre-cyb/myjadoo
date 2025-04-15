@@ -6,14 +6,19 @@ import Bookings from '~/components/bookings/index.vue'
 import Testimonials from '~/components/testimonials/index.vue'
 import Companies from '~/components/companies/index.vue'
 import Subscribe from '~/components/subscribe/index.vue'
+
+
 </script>
 
 <template>
-    <LazyHero />
-    <LazyCategory />
-    <LazyDestinations />
-    <LazyBookings />
-    <LazyTestimonials />
-    <LazyCompanies />
-    <LazySubscribe />
+    <div>
+
+        <LazyHero />
+        <LazyCategory />
+        <LazyDestinations />
+        <LazyBookings />
+        <LazyTestimonials />
+        <LazyCompanies />
+        <LazySubscribe />
+    </div>
 </template>

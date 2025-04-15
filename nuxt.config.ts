@@ -12,8 +12,7 @@ export default defineNuxtConfig({
     config: {
       theme: {
         fontFamily: {
-          'poppins': ['Poppins', 'sans-serif'],
-          'volkhov': ['Volkhov', 'serif']
+          'poppins': ['Poppins', 'sans-serif']
         }
       },
       plugins: [
@@ -21,4 +20,10 @@ export default defineNuxtConfig({
       ]
     }
   },
+  runtimeConfig: {
+    public: {
+      // NAMESPACE
+      apiBase: process.env.NUXT_PUBLIC_API_BASE // sarà visibile nel client 
+    }
+  }
 });
